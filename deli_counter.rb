@@ -6,7 +6,7 @@ def line (katz_deli)
   
   else 
     line_list = []; 
-    katz_deli.each_with_index{|x,index| line_list.push("#{index+1} .#{x}")}
+    katz_deli.each_with_index{|x,index| line_list.push("#{index+1}. #{x}")}
   puts "The line is currently: #{line_list.join(" ")} "
   end 
 end
